@@ -1,22 +1,21 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/{{instanceID}}/graphql",
-      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/{{instanceID}}/graphql",
+      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/QD1T4hbz1zGxLHYpp8cyPy/graphql",
+      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/QD1T4hbz1zGxLHYpp8cyPy/graphql",
       "headers": {
         "all": {
           "Store": "default"
         },
         "cs": {
-          "AC-View-ID": "{{catalogViewUUID}}",
-          "AC-Price-Book-ID": "{{priceBookID}}",            # Optional. Remove if not needed.
-          "AC-Policy-{{attributeTrigger}}": "{{attributeValue}}"  # Optional. Remove this header if not needed.
+          "AC-View-ID": "b2cdc85b-7004-494c-a3bd-6c55e5533e4c",
+          "AC-Price-Book-ID": "east_coast_inc"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
         "environment": "Testing",
-        "environment-id": "Fwus6kdpvYCmeEdcCX7PZg",
+        "environment-id": "QD1T4hbz1zGxLHYpp8cyPy",
         "store-code": "YOUR_STORE_CODE",
         "store-id": "YOUR_STORE_ID",
         "store-name": "YOUR_STORE_NAME",
